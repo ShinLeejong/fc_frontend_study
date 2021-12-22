@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+}
+
+header,
+main,
+footer {
+    
+}
