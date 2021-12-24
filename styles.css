@@ -3,13 +3,14 @@ body {
     height: 100%;
 }
 
-body {
-    display: grid;
-    grid-template-rows: 15% 75% 10%;
+header {
+    display: flex;
 }
 
-header,
-main,
-footer {
-    
+header > div {
+    border: 3px solid silver;
+}
+
+.spacer {
+    flex-grow: 1;    
 }
